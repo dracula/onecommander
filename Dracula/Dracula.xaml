@@ -26,6 +26,9 @@
         
         Pressing Ctrl+Shift+Alt+F5 reloads the theme so it is useful for editing themes, but not all keys will be reloaded as some require a restart
     -->
+  
+    <!--  Setting this will override accent color and user won't be able to change it in this theme  -->
+    <SolidColorBrush x:Key="AccentBrushForced" Color="#ff79c6" />
 
     <Thickness x:Key="WindowPadding">1,1,0,1</Thickness>
     <Thickness x:Key="WindowPaddingMaximized">0,-2,0,0</Thickness>
@@ -52,7 +55,7 @@
     </Style>
 
     <!--  Highlighted Text, like GB portion of file size, or number of selected files. Can be the same as TextPrimaryBrush to keep the same color  -->
-    <SolidColorBrush x:Key="TextImportantBrush" Color="#0f92fe" />
+    <SolidColorBrush x:Key="TextImportantBrush" Color="#ffffff" />
 
     <!--  Secondary Text, like extension in File, or path in Favorites  -->
     <SolidColorBrush x:Key="TextUnimportantBrush" Color="#cacaca" />
