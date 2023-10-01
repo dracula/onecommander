@@ -1,18 +1,20 @@
 ### [OneCommander](https://www.onecommander.com/)
 
-### General
-
-Put the "Dracula" folder inside the installation directory of OneCommander in the Folder "Themes"
-
-#### Install using Git
+#### Download using Git
 
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
     git clone https://github.com/dracula/onecommander.git
 
-#### Install manually
+#### Download manually
 
 Download using the [GitHub .zip download](https://github.com/dracula/onecommander/archive/master.zip) option and unzip them.
+
+### Installation
+
+Put the "Dracula" folder inside the installation directory of OneCommander in the Folder "Themes".
+
+To find the location of "Themes" folder (different depending on installation type), open "About" dialog (Info icon in bottom left corner), and click "Settings Location", and from there open "Themes" folder
 
 #### Activating theme
 
